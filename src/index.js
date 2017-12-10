@@ -4,14 +4,13 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+// Import Redux-related components
 import { Provider } from 'react-redux'
-
 import { createStore } from 'redux'
 import appReducer from './reducers/app-reducer'
-let store = createStore(appReducer, {
-    data: {
 
-    },
+let store = createStore(appReducer, {
+    data: {},
     history: []
 })
 
