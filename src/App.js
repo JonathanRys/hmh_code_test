@@ -26,7 +26,7 @@ class App extends Component {
       <div className="App">
         <Header { ...this.props.store.getState().data } />
         <div className="content">
-          <Profile store={ this.props.store } />
+          <Profile store={this.props.store} />
           <History { ...this.props.store.getState() } />
         </div>
       </div>

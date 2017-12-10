@@ -6,7 +6,7 @@ class History extends Component {
         return (
             <div className="history">
                 <h3>History</h3>
-                { this.props.history.map((item, key) => <div key={ `item-${key}` }>{ JSON.stringify(item) }</div>) }
+                {this.props.history.map((item, key) => <div key={`item-${key}`}>{JSON.stringify(item)}</div>)}
             </div>
         )
     }
