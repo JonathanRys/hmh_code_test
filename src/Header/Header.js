@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
-import './header.css'
+import './Header.css'
 import PropTypes from 'prop-types'
 
 class Header extends Component {
     render() {
         return (
             <div className="header">
-                <h1>{this.props.firstName ? `Hello ${this.props.firstName}` : "Welcome"}</h1>
+                <h1>{this.props.name ? `Hello ${this.props.name}` : "Welcome"}</h1>
             </div>
         )
     }
 }
 
 Header.propTypes = {
-    firstName: PropTypes.string
+    name: PropTypes.string
 }
 
 export default Header

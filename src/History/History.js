@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+import './History.css'
+
 class History extends Component {
     render() {
         return (

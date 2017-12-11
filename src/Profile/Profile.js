@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import { connect } from 'react-redux'
+import './Profile.css'
 
 class Profile extends Component {
     constructor(props) {
@@ -26,11 +26,7 @@ class Profile extends Component {
     }
 
     onClick = () => {
-        const action = {
-            type: "UPDATE_HISTORY",
-            ...this.state
-        }
-        this.props.store.dispatch(action)
+        this.props.onClick({ data: this.state.data })
     }
 
     render() {
@@ -47,7 +43,7 @@ class Profile extends Component {
 }
 
 Profile.propTypes = {
-    store: PropTypes.object
+    store: PropTypes.object.isRequired
 }
 
-export default connect()(Profile)
+export default Profile
