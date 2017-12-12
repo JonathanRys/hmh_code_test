@@ -9,12 +9,10 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import appReducer from './reducers/app-reducer'
 
-let store = createStore(appReducer)
-
 ReactDOM.render(
     (
-        <Provider store={store}>
-            <App store={store} />
+        <Provider store={createStore(appReducer)}>
+            <App />
         </Provider>
     ), document.getElementById('root'));
 registerServiceWorker();
