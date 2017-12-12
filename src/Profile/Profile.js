@@ -43,7 +43,7 @@ class Profile extends Component {
 }
 
 Profile.propTypes = {
-    store: PropTypes.object.isRequired
+    data: PropTypes.object.isRequired
 }
 
 export default Profile
