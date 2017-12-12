@@ -11,7 +11,7 @@ class Profile extends Component {
             data: {
                 firstName: "",
                 lastName: "",
-                startDate: ""
+                favColor: ""
             }
         }
     }
@@ -35,7 +35,7 @@ class Profile extends Component {
                 <h3>Profile</h3>
                 <label>First Name:</label><input name="firstName" type="text" onBlur={this.onBlur} /><br />
                 <label>Last Name:</label><input name="lastName" type="text" onBlur={this.onBlur} /><br />
-                <label>Start Date:</label><input name="startDate" type="text" onBlur={this.onBlur} /><br />
+                <label>Favorite Color:</label><input name="favColor" type="text" onBlur={this.onBlur} /><br />
                 <input type="button" value="Save" onClick={this.onClick} />
             </div>
         )
