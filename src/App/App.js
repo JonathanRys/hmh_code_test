@@ -28,10 +28,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header name={this.props.store.getState().data.firstName} />
+        <Header name={this.props.data.firstName} />
         <div className="content">
           <Profile onClick={this.props.onClick} />
-          <History history={this.props.store.getState().history} />
+          <History history={this.props.history} />
         </div>
       </div>
     );
