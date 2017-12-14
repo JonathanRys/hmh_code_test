@@ -9,7 +9,7 @@ const returnedState = {
     data: {
         firstName: "",
         lastName: "",
-        startDate: ""
+        favColor: ""
     },
     history: [{}]
 }
@@ -18,7 +18,7 @@ const updatedState = {
     data: {
         firstName: "Lester",
         lastName: "Tester",
-        startDate: "Today"
+        favColor: "Today"
     },
     history: [{}]
 }
@@ -27,7 +27,7 @@ const mockData = () => {
     return {
         firstName: "Lester",
         lastName: "Tester",
-        startDate: "Today"
+        favColor: "Today"
     }
 }
 

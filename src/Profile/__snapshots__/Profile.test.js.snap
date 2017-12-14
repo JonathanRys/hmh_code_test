@@ -183,7 +183,7 @@ Profile {
                       "key": null,
                       "lastEffect": null,
                       "memoizedProps": Object {
-                        "children": "Start Date:",
+                        "children": "Favorite Color:",
                       },
                       "memoizedState": null,
                       "nextEffect": null,
@@ -205,7 +205,7 @@ Profile {
                         "key": null,
                         "lastEffect": null,
                         "memoizedProps": Object {
-                          "name": "startDate",
+                          "name": "favColor",
                           "onBlur": [Function],
                           "type": "text",
                         },
@@ -273,7 +273,7 @@ Profile {
                           "updateQueue": null,
                         },
                         "stateNode": <input
-                          name="startDate"
+                          name="favColor"
                           type="text"
                         />,
                         "tag": 5,
@@ -281,7 +281,7 @@ Profile {
                         "updateQueue": null,
                       },
                       "stateNode": <label>
-                        Start Date:
+                        Favorite Color:
                       </label>,
                       "tag": 5,
                       "type": "label",
@@ -365,10 +365,10 @@ Profile {
           />,
           <br />,
           <label>
-            Start Date:
+            Favorite Color:
           </label>,
           <input
-            name="startDate"
+            name="favColor"
             onBlur={[Function]}
             type="text"
           />,
@@ -410,10 +410,10 @@ Profile {
         />
         <br />
         <label>
-          Start Date:
+          Favorite Color:
         </label>
         <input
-          name="startDate"
+          name="favColor"
           type="text"
         />
         <br />
@@ -438,9 +438,9 @@ Profile {
     },
     "memoizedState": Object {
       "data": Object {
+        "favColor": "",
         "firstName": "",
         "lastName": "",
-        "startDate": "",
       },
     },
     "nextEffect": null,
@@ -497,10 +497,10 @@ Profile {
               />
               <br />
               <label>
-                Start Date:
+                Favorite Color:
               </label>
               <input
-                name="startDate"
+                name="favColor"
                 type="text"
               />
               <br />
@@ -601,10 +601,10 @@ Profile {
             />
             <br />
             <label>
-              Start Date:
+              Favorite Color:
             </label>
             <input
-              name="startDate"
+              name="favColor"
               type="text"
             />
             <br />
@@ -644,9 +644,9 @@ Profile {
   "refs": Object {},
   "state": Object {
     "data": Object {
+      "favColor": "",
       "firstName": "",
       "lastName": "",
-      "startDate": "",
     },
   },
   "updater": Object {
