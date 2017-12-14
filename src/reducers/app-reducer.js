@@ -1,15 +1,18 @@
-const appReducer = (state = {
+const initialState = {
     data: {},
     history: []
-}, action) => {
+}
+
+const appReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'UPDATE_HISTORY':
-            return Object.assign({}, state, {
+            return {
+                ...state,
                 history: state.history.concat(state.data),
-                data: action.data,
-            })
+                data: action.data
+            }
         default:
-            return state;
+            return initialState;
     }
 }
 

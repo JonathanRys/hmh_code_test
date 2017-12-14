@@ -1,0 +1,659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Profile component renders without crashing 1`] = `
+Profile {
+  "_reactInternalFiber": FiberNode {
+    "_debugID": 18,
+    "_debugIsCurrentlyTiming": false,
+    "_debugOwner": null,
+    "_debugSource": null,
+    "alternate": null,
+    "child": FiberNode {
+      "_debugID": 19,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": [Circular],
+      "_debugSource": null,
+      "alternate": null,
+      "child": FiberNode {
+        "_debugID": 20,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": null,
+        "alternate": null,
+        "child": null,
+        "effectTag": 0,
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "internalContextTag": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": "Profile",
+        },
+        "memoizedState": null,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": [Circular],
+        "sibling": FiberNode {
+          "_debugID": 21,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "alternate": null,
+          "child": null,
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 1,
+          "internalContextTag": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": "First Name:",
+          },
+          "memoizedState": null,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": [Circular],
+          "sibling": FiberNode {
+            "_debugID": 22,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 2,
+            "internalContextTag": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "name": "firstName",
+              "onBlur": [Function],
+              "type": "text",
+            },
+            "memoizedState": null,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 23,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 3,
+              "internalContextTag": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {},
+              "memoizedState": null,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 24,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 4,
+                "internalContextTag": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Last Name:",
+                },
+                "memoizedState": null,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 25,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 5,
+                  "internalContextTag": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "name": "lastName",
+                    "onBlur": [Function],
+                    "type": "text",
+                  },
+                  "memoizedState": null,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 26,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 6,
+                    "internalContextTag": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {},
+                    "memoizedState": null,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": FiberNode {
+                      "_debugID": 27,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 7,
+                      "internalContextTag": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Start Date:",
+                      },
+                      "memoizedState": null,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": FiberNode {
+                        "_debugID": 28,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 8,
+                        "internalContextTag": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "name": "startDate",
+                          "onBlur": [Function],
+                          "type": "text",
+                        },
+                        "memoizedState": null,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": FiberNode {
+                          "_debugID": 29,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 9,
+                          "internalContextTag": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {},
+                          "memoizedState": null,
+                          "nextEffect": null,
+                          "pendingProps": null,
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": FiberNode {
+                            "_debugID": 30,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": null,
+                            "alternate": null,
+                            "child": null,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 10,
+                            "internalContextTag": 0,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "onClick": [Function],
+                              "type": "button",
+                              "value": "Save",
+                            },
+                            "memoizedState": null,
+                            "nextEffect": null,
+                            "pendingProps": null,
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": null,
+                            "stateNode": <input
+                              type="button"
+                              value="Save"
+                            />,
+                            "tag": 5,
+                            "type": "input",
+                            "updateQueue": null,
+                          },
+                          "stateNode": <br />,
+                          "tag": 5,
+                          "type": "br",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <input
+                          name="startDate"
+                          type="text"
+                        />,
+                        "tag": 5,
+                        "type": "input",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <label>
+                        Start Date:
+                      </label>,
+                      "tag": 5,
+                      "type": "label",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <br />,
+                    "tag": 5,
+                    "type": "br",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <input
+                    name="lastName"
+                    type="text"
+                  />,
+                  "tag": 5,
+                  "type": "input",
+                  "updateQueue": null,
+                },
+                "stateNode": <label>
+                  Last Name:
+                </label>,
+                "tag": 5,
+                "type": "label",
+                "updateQueue": null,
+              },
+              "stateNode": <br />,
+              "tag": 5,
+              "type": "br",
+              "updateQueue": null,
+            },
+            "stateNode": <input
+              name="firstName"
+              type="text"
+            />,
+            "tag": 5,
+            "type": "input",
+            "updateQueue": null,
+          },
+          "stateNode": <label>
+            First Name:
+          </label>,
+          "tag": 5,
+          "type": "label",
+          "updateQueue": null,
+        },
+        "stateNode": <h3>
+          Profile
+        </h3>,
+        "tag": 5,
+        "type": "h3",
+        "updateQueue": null,
+      },
+      "effectTag": 0,
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "internalContextTag": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "children": Array [
+          <h3>
+            Profile
+          </h3>,
+          <label>
+            First Name:
+          </label>,
+          <input
+            name="firstName"
+            onBlur={[Function]}
+            type="text"
+          />,
+          <br />,
+          <label>
+            Last Name:
+          </label>,
+          <input
+            name="lastName"
+            onBlur={[Function]}
+            type="text"
+          />,
+          <br />,
+          <label>
+            Start Date:
+          </label>,
+          <input
+            name="startDate"
+            onBlur={[Function]}
+            type="text"
+          />,
+          <br />,
+          <input
+            onClick={[Function]}
+            type="button"
+            value="Save"
+          />,
+        ],
+        "className": "profile",
+      },
+      "memoizedState": null,
+      "nextEffect": null,
+      "pendingProps": null,
+      "ref": null,
+      "return": [Circular],
+      "sibling": null,
+      "stateNode": <div
+        class="profile"
+      >
+        <h3>
+          Profile
+        </h3>
+        <label>
+          First Name:
+        </label>
+        <input
+          name="firstName"
+          type="text"
+        />
+        <br />
+        <label>
+          Last Name:
+        </label>
+        <input
+          name="lastName"
+          type="text"
+        />
+        <br />
+        <label>
+          Start Date:
+        </label>
+        <input
+          name="startDate"
+          type="text"
+        />
+        <br />
+        <input
+          type="button"
+          value="Save"
+        />
+      </div>,
+      "tag": 5,
+      "type": "div",
+      "updateQueue": null,
+    },
+    "effectTag": 1,
+    "expirationTime": 0,
+    "firstEffect": null,
+    "index": 0,
+    "internalContextTag": 0,
+    "key": null,
+    "lastEffect": null,
+    "memoizedProps": Object {
+      "onClick": [Function],
+    },
+    "memoizedState": Object {
+      "data": Object {
+        "firstName": "",
+        "lastName": "",
+        "startDate": "",
+      },
+    },
+    "nextEffect": null,
+    "pendingProps": null,
+    "ref": null,
+    "return": FiberNode {
+      "_debugID": 16,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "alternate": FiberNode {
+        "_debugID": 16,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "alternate": [Circular],
+        "child": null,
+        "effectTag": 0,
+        "expirationTime": 1,
+        "firstEffect": null,
+        "index": 0,
+        "internalContextTag": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": null,
+        "memoizedState": null,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+              class="profile"
+            >
+              <h3>
+                Profile
+              </h3>
+              <label>
+                First Name:
+              </label>
+              <input
+                name="firstName"
+                type="text"
+              />
+              <br />
+              <label>
+                Last Name:
+              </label>
+              <input
+                name="lastName"
+                type="text"
+              />
+              <br />
+              <label>
+                Start Date:
+              </label>
+              <input
+                name="startDate"
+                type="text"
+              />
+              <br />
+              <input
+                type="button"
+                value="Save"
+              />
+            </div>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "finishedWork": null,
+          "hydrate": false,
+          "isReadyForCommit": false,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingContext": null,
+          "remainingExpirationTime": 0,
+        },
+        "tag": 3,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": null,
+          "callbackList": null,
+          "expirationTime": 1,
+          "first": Object {
+            "callback": null,
+            "expirationTime": 1,
+            "isForced": false,
+            "isReplace": false,
+            "next": null,
+            "nextCallback": null,
+            "partialState": Object {
+              "element": <Profile
+                onClick={[Function]}
+              />,
+            },
+          },
+          "hasForceUpdate": false,
+          "isInitialized": false,
+          "isProcessing": false,
+          "last": Object {
+            "callback": null,
+            "expirationTime": 1,
+            "isForced": false,
+            "isReplace": false,
+            "next": null,
+            "nextCallback": null,
+            "partialState": Object {
+              "element": <Profile
+                onClick={[Function]}
+              />,
+            },
+          },
+        },
+      },
+      "child": [Circular],
+      "effectTag": 0,
+      "expirationTime": 0,
+      "firstEffect": [Circular],
+      "index": 0,
+      "internalContextTag": 0,
+      "key": null,
+      "lastEffect": [Circular],
+      "memoizedProps": null,
+      "memoizedState": Object {
+        "element": <Profile
+          onClick={[Function]}
+        />,
+      },
+      "nextEffect": null,
+      "pendingProps": null,
+      "ref": null,
+      "return": null,
+      "sibling": null,
+      "stateNode": Object {
+        "containerInfo": <div>
+          <div
+            class="profile"
+          >
+            <h3>
+              Profile
+            </h3>
+            <label>
+              First Name:
+            </label>
+            <input
+              name="firstName"
+              type="text"
+            />
+            <br />
+            <label>
+              Last Name:
+            </label>
+            <input
+              name="lastName"
+              type="text"
+            />
+            <br />
+            <label>
+              Start Date:
+            </label>
+            <input
+              name="startDate"
+              type="text"
+            />
+            <br />
+            <input
+              type="button"
+              value="Save"
+            />
+          </div>
+        </div>,
+        "context": Object {},
+        "current": [Circular],
+        "finishedWork": null,
+        "hydrate": false,
+        "isReadyForCommit": false,
+        "nextScheduledRoot": null,
+        "pendingChildren": null,
+        "pendingContext": null,
+        "remainingExpirationTime": 0,
+      },
+      "tag": 3,
+      "type": null,
+      "updateQueue": null,
+    },
+    "sibling": null,
+    "stateNode": [Circular],
+    "tag": 2,
+    "type": [Function],
+    "updateQueue": null,
+  },
+  "_reactInternalInstance": Object {},
+  "context": Object {},
+  "onBlur": [Function],
+  "onClick": [Function],
+  "props": Object {
+    "onClick": [Function],
+  },
+  "refs": Object {},
+  "state": Object {
+    "data": Object {
+      "firstName": "",
+      "lastName": "",
+      "startDate": "",
+    },
+  },
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
