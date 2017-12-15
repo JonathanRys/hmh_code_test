@@ -36,7 +36,7 @@ class Profile extends Component {
                 <label>First Name:</label><input name="firstName" type="text" onBlur={this.onBlur} /><br />
                 <label>Last Name:</label><input name="lastName" type="text" onBlur={this.onBlur} /><br />
                 <label>Favorite Color:</label><input name="favColor" type="text" onBlur={this.onBlur} /><br />
-                <input type="button" value="Save" onClick={this.onClick} />
+                <input type="button" className="save-button" value="Save" onClick={this.onClick} />
             </div>
         )
     }
