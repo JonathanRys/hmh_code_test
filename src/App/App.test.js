@@ -12,18 +12,19 @@ import Adapter from 'enzyme-adapter-react-16'
 
 Enzyme.configure({ adapter: new Adapter })
 
-let mockStore = {
+const onClick = jest.fn()
+
+const mockData = {
   data: {
     firstName: "",
     lastName: "",
     favColor: ""
   },
   history: [],
-  getState: state => state,
-  subscribe: jest.fn()
-
+  onClick: onClick
 }
-let store = createStore(appReducer)
+
+const store = createStore(appReducer)
 
 describe('Test App component', () => {
   it('matches the snapshot', () => {
@@ -32,15 +33,12 @@ describe('Test App component', () => {
   });
 
   it('functions properly', () => {
-    const app = shallow(<Provider store={store}><App /></Provider>)
+    const app = shallow(<App store={store} {...mockData} />)
+    const content = app.dive().first().find(".content")
+    const profile = content.children().first().first()
+    const button = profile.dive().last().find(".save-button")
+    button.simulate("click")
 
-    // const profile = app.dive().find(Profile)
-
-    // expect(profile).toEqual('foo')
-    // console.log('content', content)
-    // const button = app.find(".save-button")
-    // console.log(button)
-
-    // button.simulate("click")
+    // expect(onClick).toBeCalledWith(mockData)
   });
 })
