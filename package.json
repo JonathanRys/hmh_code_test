@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "create-react-native-app": "^1.0.0",
+    "global": "^4.3.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
@@ -13,8 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "jest": "jest",
-    "jest-cover": "jest --coverage",
+    "jest": "jest --watch --verbose",
+    "jest-cover": "jest --coverage --watch --verbose",
     "updateSnapshots": "jest -u",
     "eject": "react-scripts eject"
   },
